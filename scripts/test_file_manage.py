@@ -2,6 +2,7 @@ from base.base_driver import BaseDriver
 from page.file_manage_page import FileManagePage
 
 class TestFileManage:
+    # 初始化
     def setup(self):
         self.driver = BaseDriver().get_driver()
         print("获取驱动成功")
