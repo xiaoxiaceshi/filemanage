@@ -1,4 +1,4 @@
-from base.base_driver import BaseDriver
+﻿from base.base_driver import BaseDriver
 from page.file_manage_page import FileManagePage
 
 class TestFileManage:
@@ -25,3 +25,11 @@ class TestFileManage:
     def test_2(self):
         print(2)
         assert 0
+        
+    def test_3(self):
+        print(3)
+        assert 0
+        
+    def test_4(self):
+        print(4)
+        assert 1
