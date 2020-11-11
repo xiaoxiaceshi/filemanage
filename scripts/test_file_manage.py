@@ -17,3 +17,7 @@ class TestFileManage:
         num = self.FileManagePage.get_moved_files_num()
         print(num)
         assert num == 20
+    
+    def test_1(self):
+        print(1)
+        assert 1
