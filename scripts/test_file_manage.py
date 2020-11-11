@@ -33,3 +33,7 @@ class TestFileManage:
     def test_4(self):
         print(4)
         assert 1
+        
+    def test_5(self):
+        print(5)
+        assert 1
