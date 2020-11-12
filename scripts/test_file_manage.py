@@ -36,4 +36,5 @@ class TestFileManage:
 
     def test_chizi(self):
         print("丹丹lllll")
+        print("哈哈哈哈")
         assert 1
