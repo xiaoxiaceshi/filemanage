@@ -41,3 +41,8 @@ class TestFileManage:
     def test_6(self):
         print(6)
         assert 0
+
+    def test_chizi(self):
+        print("aaa")
+        print("lidan")
+        assert 1
